@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="Estyle_1.css" rel="stylesheet" type="text/css" />
+
+<link href="estilos_css/sub.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Arial, Verdana, Tahoma;
+	font-size: 18px;
+}
+.style2 {font-family: "Franklin Gothic Book", Courier, "Times New Roman"; font-size: 18px; }
+-->
+</style>
+<link href="estilos_css/lateral.css" rel="stylesheet" type="text/css" />
+<link href="estilos_css/interno.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #66CC00;
+	font-weight: bold;
+}
+a:hover {
+	color: #003399;
+}
+.style4 {font-family: Arial, Verdana, Tahoma}
+.style5 {font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; color: #009900; text-decoration: none; font-size: 18px;}
+-->
+</style>
+</head>
+
+<body>
+<p align="left" class="style3">Introdu&ccedil;&atilde;o &agrave; Linguagem HTML</p>
+<p align="left" class="style2">&nbsp;</p>
+<p align="left" class="style2 style4">HTML (HyperText Markup Language - Linguagem de Formata&ccedil;&atilde;o de Hipertexto) &eacute; fruto do &quot;casamento&quot; dos padr&otilde;es HyTime e SGML.</p>
+<p align="left" class="style2 style4"><u>HyTime - Hypermedia/Time-based Document Structuring Language</u></p>
+<p align="left" class="style2 style4">Hy Time (ISO 10744:1992) - padr&atilde;o para representa&ccedil;&atilde;o estruturada de hiperm&iacute;dia e informa&ccedil;&atilde;o baseada em tempo. Um documento &eacute; visto como um conjunto de eventos concorrentes dependentes de tempo (&aacute;udio, v&iacute;deo, etc.), conectados por webs ou hiperlinks.</p>
+<p align="left" class="style2 style4">O padr&atilde;o HyTime &eacute; independente dos padr&otilde;es de processamento de texto em geral. Ele fornece a base para a constru&ccedil;&atilde;o de sistemas hipertexto padronizados, consistindo de documentos que alicam os padr&otilde;es de maneira particular.</p>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4"><u>SGML - Standard Generalized Markup Language </u></p>
+<p align="left" class="style2 style4">Padr&atilde;o ISO 8879 de formata&ccedil;&atilde;o de textos: n&atilde;o foi desenvolvido para hipertexto, mas torna-se conveniente para transformar documentos em hiper-objetos e para descrever as liga&ccedil;&otilde;es. </p>
+<p align="left" class="style2 style4">SGML n&atilde;o &eacute; padr&atilde;o aplicado de maneira padronizada: todos os produtos SGML t&ecirc;m seu pr&oacute;prio sistema para traduzir as etiquetas para um particular formatador de texto. </p>
+<p align="left" class="style2 style4"><strong>&middot; </strong><u>DTD - Document Type Definition</u> - define as regras de formata&ccedil;&atilde;o para uma dada classe de documentos. Um DTD ou uma refer&ecirc;ncia para um DTD deve estar contido em qualquer documento conforme o padr&atilde;o SGML.</p>
+<p align="left" class="style2 style4">Portanto, HTML &eacute; definido segundo um DTD de SGML. <br />
+</p>
+<p align="left" class="style2 style4">Todo documento HTML apresenta elementos entre par&ecirc;nteses angulares (&lt; e &gt;); esses elementos s&atilde;o as etiquetas (tags) de HTML, que s&atilde;o os comandos de formata&ccedil;&atilde;o da linguagem. A maioria das etiquetas tem sua correspondente de fechamento:</p>
+<p align="left" class="style2 style4">&lt;etiqueta&gt;...&lt;/etiqueta&gt;</p>
+<p align="left" class="style2 style4">Isso &eacute; necess&aacute;rio porque as etiquetas servem para definir a formata&ccedil;&atilde;o de uma por&ccedil;&atilde;o de texto, e assim marcamos onde come&ccedil;a e termina o texto com a formata&ccedil;&atilde;o especificada por ela. </p>
+<p align="left" class="style2 style4">Alguns elementos s&atilde;o chamados &ldquo;vazios&rdquo;, pois n&atilde;o marcam uma regi&atilde;o de texto, apenas inserem alguma coisa no documento: </p>
+<p align="left" class="style2 style4">&lt;etiqueta&gt;</p>
+<p align="left" class="style2 style4">Todos os elementos podem ter atributos: </p>
+<p align="left" class="style2 style4">&lt;etiqueta atributo1=valor1 atributo2=valor2&gt;...&lt;/etiqueta&gt;<br />
+</p>
+<p align="left" class="style2 style4">HTML &eacute; um recurso muito simples e acess&iacute;vel para a produ&ccedil;&atilde;o de documentos. Nestes &ldquo;cap&iacute;tulos&rdquo;, ser&aacute; poss&iacute;vel aprender grande parte de seus elementos. <br />
+</p>
+<p align="left" class="style2 style4"><u>Editores HTML</u></p>
+<p align="left" class="style2 style4">S&atilde;o programas editores de c&oacute;digo HTML que servem para facilitar o trabalho do designer que ir&aacute; desenvolver a p&aacute;gina. </p>
+<p align="left" class="style2 style4">Existem basicamente tr&ecirc;s tipos de editores:</p>
+<p align="left" class="style2 style4">&middot; Editores de texto fonte</p>
+<p align="left" class="style2 style4">- editores de c&oacute;digo pura; facilitam a inser&ccedil;&atilde;o das tags, orientando o uso de atributos e marca&ccedil;&otilde;es. </p>
+<p align="left" class="style2 style4">Ex.: W3e, HotDog, Crimson Editor.</p>
+<p align="left" class="style2 style4"><img src="imagens/crimson.jpg" width="497" height="363" /></p>
+<p align="left" class="style2 style4">Tela do Crimson Editor</p>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4"><strong>&middot; </strong><u>Editores WYSIWYG</u> (What You See Is What You Get)</p>
+<p align="left" class="style2 style4">-<span class="style4"> editores gr&aacute;ficos; oferecem ambiente de edi&ccedil;&atilde;o com interface mais amig&aacute;vel. Este tipo de programa oferece menos controle sobre o c&oacute;digo, gera documentos com linhas desnecess&aacute;rias tornando-os &ldquo;pesados&rdquo; ou incompat&iacute;veis com certas vers&otilde;es de browsers.</span></p>
+<p align="left" class="style2 style4">Ex.: FrontPage, Namo Editor, Dreamweaver, Adobe Go Live.</p>
+<p align="left" class="style2 style4"><img src="imagens/golive.jpg" width="476" height="276" /></p>
+<p align="left" class="style2 style4">Tela do Adobe Go Live </p>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4"><strong>&middot; </strong><u>Editores Online (Autom&aacute;ticos)</u></p>
+<p align="left" class="style2 style4">- usado por sites de hospedagem de p&aacute;ginas gratuitas; o usu&aacute;rio escolhe a tela a partir de uma s&eacute;rie de modelos (templates) , os dados s&atilde;o enviados atrav&eacute;s do preenchimento de formul&aacute;rios e a p&aacute;gina vai sendo montada e colocada &ldquo;no ar&rdquo; automaticamente. N&atilde;o d&aacute; op&ccedil;&atilde;o de layout al&eacute;m do b&aacute;sico.</p>
+<p align="left" class="style2 style4">Al&eacute;m dos editores espec&iacute;ficos para HTML, editores bastante utilizados, como o Word, entre outros, permitem a exporta&ccedil;&atilde;o de seus documentos pr&oacute;prios para o formato HTML.</p>
+<p align="left" class="style2 style4">O documento HTML produzido normalmente ter&aacute; extens&atilde;o <u>.html ou .htm</u>.</p>
+<p align="left" class="style2 style4"> Estrutura de um documento HTML </p>
+<p align="left" class="style2 style4">Programa escrito por meio de comandos da linguagem HTML, obedecendo a estrutura de sintaxe da linguagem. </p>
+<p align="left" class="style2 style4">Um comando pode: <br />
+  Alterar o aspecto f&iacute;sico do texto <br />
+  Indicar que certa parte do texto &eacute; um endere&ccedil;o de outra home page <br />
+  Inserir figura <br />
+  Criar tabelas, formul&aacute;rios, frames. </p>
+<p align="left" class="style2 style4">O browser ao acessar um programa procura pelos comandos HTML denominados tags. </p>
+<p align="left" class="style2 style4">As tags s&atilde;o reconhecidas pelos sinais &ldquo;&lt;&gt;&rdquo; para iniciar o comando e &ldquo;&lt;/&gt;&rdquo; para finalizar o comando. <br />
+  Ex.: </p>
+<p align="left" class="style2 style4">&lt;Nome da tag&gt; Texto marcado pela Tag &lt;/Nome da tag&gt; <br />
+</p>
+<p align="left" class="style2 style4">Os comandos &lt;BR&gt;, usado para quebrar linha e &lt;HR&gt;, para criar uma linha horizontal n&atilde;o necessitam de tags de finaliza&ccedil;&atilde;o. </p>
+<p align="left" class="style2 style4"><u>Estrutura Hier&aacute;rquica dos comandos HTML </u></p>
+<p align="left" class="style2 style4">A estrutura de um documento HTML apresenta os seguintes componentes:</p>
+<p align="left" class="style2 style4"><img src="imagens/est1.jpg" width="626" height="198" /></p>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4"><u>Estrutura B&aacute;sica da sintaxe HTML</u></p>
+<p align="left" class="style2 style4"><img src="imagens/est2.jpg" width="392" height="237" /></p>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4"><u>&lt;HTML&gt;...&lt;/HTML&gt;</u> marca o in&iacute;cio e o final do programa. Possui duas partes: cabe&ccedil;alho (HEAD) e o corpo (BODY) </p>
+<p align="left" class="style2 style4"><u>&lt;HEAD&gt;...&lt;/HEAD&gt;</u> marca a &aacute;rea de cabe&ccedil;alho. &Eacute; opcional. </p>
+<p align="left" class="style2 style4"><u>&lt;TITLE&gt;...&lt;/TITLE&gt;</u> &uacute;nico comando obrigat&oacute;rio da &aacute;rea do cabe&ccedil;alho. Cont&eacute;m o t&iacute;tulo do documento que aparecer&aacute; na barra de t&iacute;tulo da janela do browser. </p>
+<p align="left" class="style2 style4"><u>&lt;BODY&gt;...&lt;/BODY&gt;</u> define a apar&ecirc;ncia do corpo do documento. Conter&aacute; toda a informa&ccedil;&atilde;o que ser&aacute; formatada e exibida pelo browser. <br />
+</p>
+<p align="left" class="style2 style4"><u>Comando &lt;BODY&gt;...&lt;/BODY&gt; </u></p>
+<p align="left" class="style2 style4">Utiliza os par&acirc;metros: <br />
+    <u>TEXT</u> (define cor do texto) <br />
+    <u>BGCOLOR</u> (define a cor do segundo plano) <br />
+    <u>BACKGROUND</u> (especifica um arquivo de imagem para o segundo plano) <br />
+    <u>LINK</u> (define a cor do texto do link; o padr&atilde;o &eacute; azul) <br />
+    <u>VLINK</u> (define a cor do link que j&aacute; foi visitado; o padr&atilde;o &eacute; p&uacute;rpura) </p>
+<p class="style2 style4" ><u>Exemplo:</u> </p>
+<ul class="style2 style4">
+  <li><a href="links_introd_ling_html/cod1.html" target="_blank" class="style5">C&oacute;digo Fonte</a></li>
+  <li><a href="links_introd_ling_html/pag1.html" target="_blank" class="style5">P&aacute;gina</a> </li>
+</ul>
+<p align="left" class="subl style1 style2"><u>Outro Exemplo: </u></p>
+<ul class="style2 style4">
+  <li><a href="links_introd_ling_html/cod2.html" target="_blank" class="style5">C&oacute;digo Fonte</a></li>
+  <li><a href="links_introd_ling_html/pag2.html" target="_blank" class="style5">P&aacute;gina</a></li>
+</ul>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4">Obs.: Os valores para cor podem ser definidos de duas formas: com c&oacute;digos RGB (red, green, blue) no formato hexadecimal, que representam as cores, ou por meio do nome da cor em ingl&ecirc;s. </p>
+<p align="left" class="style2 style4"><u>Tabela com os nomes das cores e seus respectivos c&oacute;digos hexadecimais:</u></p>
+<table width="554" height="279" border="2" cellpadding="1" cellspacing="1">
+  <tr>
+    <th class="style2 style4" scope="col">Nome </th>
+    <th class="style2 style4" scope="col">C&oacute;digo</th>
+    <th class="style2 style4" scope="col">Nome</th>
+    <th class="style2 style4" scope="col">C&oacute;digo</th>
+  </tr>
+  <tr>
+    <td class="style2 style4">White</td>
+    <td class="style2 style4">#FFFFFF</td>
+    <td class="style2 style4">Brown</td>
+    <td class="style2 style4">#800000</td>
+  </tr>
+  <tr>
+    <td class="style2 style4">Yellow</td>
+    <td class="style2 style4">#FFFF00</td>
+    <td class="style2 style4">Lime</td>
+    <td class="style2 style4">#32CD32</td>
+  </tr>
+  <tr>
+    <td class="style2 style4">Red</td>
+    <td class="style2 style4">#FF0000</td>
+    <td class="style2 style4">Navy</td>
+    <td class="style2 style4">#000080</td>
+  </tr>
+  <tr>
+    <td class="style2 style4">Black</td>
+    <td class="style2 style4">#000000</td>
+    <td class="style2 style4">Olive</td>
+    <td class="style2 style4">#808000</td>
+  </tr>
+  <tr>
+    <td class="style2 style4">Blue</td>
+    <td class="style2 style4">#0000FF</td>
+    <td class="style2 style4">Teal</td>
+    <td class="style2 style4">#008080</td>
+  </tr>
+  <tr>
+    <td class="style2 style4">Cyan</td>
+    <td class="style2 style4">#00FFFF</td>
+    <td class="style2 style4">Purple</td>
+    <td class="style2 style4">#800080</td>
+  </tr>
+  <tr>
+    <td class="style2 style4">Green</td>
+    <td class="style2 style4">#00FF00</td>
+    <td class="style2 style4">Silver</td>
+    <td class="style2 style4">#C0C0C0</td>
+  </tr>
+   <tr>
+    <td class="style2 style4">Fuchsia</td>
+    <td class="style2 style4">#FF00FF</td>
+    <td class="style2 style4">Gray</td>
+    <td class="style2 style4">#808080</td>
+  </tr>
+</table>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4"><u>Outro exemplo: </u></p>
+<ul class="style2 style4">
+  <li><a href="links_introd_ling_html/cod3.html" target="_blank" class="style5">C&oacute;digo Fonte</a></li>
+  <li><a href="links_introd_ling_html/pag3.html" target="_blank" class="style5">P&aacute;gina</a> </li>
+</ul>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4">Par&acirc;metro BGPROPERTIES: faz com que a imagem inserida no segundo plano fique fixa na tela quando a barra de rolagem for utilizada. Este comando n&atilde;o &eacute; interpretado pelo NETSCAPE. </p>
+<p align="left" class="style2 style4"><strong><br /> 
+</strong><u>Exemplo:</u></p>
+<ul class="style2 style4">
+  <li><a href="links_introd_ling_html/cod.html" target="_blank" class="style5">C&oacute;digo Fonte</a></li>
+</ul>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4">O comando <u>&lt;Hn&gt;...&lt;/Hn&gt;</u> </p>
+<p align="left" class="style2 style4">Tem por finalidade formatar um determinado texto como sendo o t&iacute;tulo de um documento a ser exibido em uma p&aacute;gina web. </p>
+<p align="left" class="style2 style4">Existem seis tamanhos ou modelos de cabe&ccedil;alhos, onde n &eacute; substitu&iacute;do por um n&uacute;mero de 1 a 6. </p>
+<p align="left" class="style2 style4">Tamb&eacute;m alinha o texto, tendo a seguinte sintaxe: </p>
+<p align="left" class="style2 style4">&lt;Hn ALIGN=LEFT&gt; alinha o cabe&ccedil;alho &agrave; esquerda <br />
+  &lt;Hn ALIGN=CENTER&gt; alinha o cabe&ccedil;alho no centro <br />
+  &lt;Hn ALIGN=RIGHT&gt; alinha o cabe&ccedil;alho &agrave; direita </p>
+<p align="left" class="style2 style4"><u>Exemplo:</u></p>
+<ul class="style2 style4">
+  <li><a href="links_introd_ling_html/cod4.html"  target="_blank" class="style5">C&oacute;digo Fonte</a></li>
+  <li><a href="links_introd_ling_html/pag4.html"  target="_blank" class="style5">P&aacute;gina</a></li>
+</ul>
+<p align="left" class="style2 style4">&nbsp;</p>
+<p align="left" class="style2 style4"><u>Bibliografia</u></p>
+<p align="left" class="style2 style4"><a href="http://www.icmc.usp.br/ensino/material/html/" target="_blank" class="style5">http://www.icmc.usp.br/ensino/material/html/</a></p>
+<p align="left" class="style2 style4">RADFAHRER, Luli. Desig/Web/Design:2. Press Market.</p>
+<p align="left" class="style2">&nbsp;</p>
+<p align="left" class="style2">&nbsp;</p>
+</body>
+</html>
